@@ -1,62 +1,118 @@
+
+<!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+<meta charset="utf-8" >
+
 <title>关于 | MicroZhao</title>
-<link rel="shortcut icon" href="https://zbf2020.github.io/favicon.ico?v=1597222631360">
-<link href="https://cdn.remixicon.com/releases/v2.1.0/remixicon.css" rel="stylesheet">
+<meta name="description" content="来自灵魂深处的发问！">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://zbf2020.github.io/favicon.ico?v=1597222864041">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
 <link rel="stylesheet" href="https://zbf2020.github.io/styles/main.css">
-<link rel="alternate" type="application/atom+xml" title="关于 | MicroZhao - Atom Feed" href="https://zbf2020.github.io/atom.xml">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
 
 
 
-    <meta name="description" content="
-欢迎来到我的小站呀，很高兴遇见你！🤝
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
 
-🏠 关于本站
-本站是博主搭建的博客，旨在保存学习中遇到的各种各样的问题与解决方法，同时分享一些岩土工程规范！
-👨‍💻 博主是谁
-博主是从事于岩土工程的地质工作者，直白的说就是在工地搬砖。
-�..." />
-    <meta name="keywords" content="MicroZhao" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
-    <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+
+
   </head>
   <body>
-    <div class="main">
-      <div class="main-content">
-        <div class="site-header">
-  <a href="https://zbf2020.github.io">
-  <img class="avatar" src="https://zbf2020.github.io/images/avatar.png?v=1597222631360" alt="">
-  </a>
-  <h1 class="site-title">
-    MicroZhao
-  </h1>
-  <p class="site-description">
-    来自灵魂深处的发问！
-  </p>
-  <div class="menu-container">
-    
-      
-        <a href="http://005wkr.coding-pages.com" class="menu">
-          首页
-        </a>
-      
-    
-      
-        <a href="http://005wkr.coding-pages.com" class="menu">
-          软件安装教程
-        </a>
-      
-    
-      
-        <a href="http://005wkr.coding-pages.com" class="menu">
-          关于
-        </a>
-      
-    
+    <div id="app" class="main">
+      <div class="site-header-container">
+  <div class="site-header">
+    <div class="left">
+      <a href="https://zbf2020.github.io">
+        <img class="avatar" src="https://zbf2020.github.io/images/avatar.png?v=1597222864041" alt="" width="32px" height="32px">
+      </a>
+      <a href="https://zbf2020.github.io">
+        <h1 class="site-title">MicroZhao</h1>
+      </a>
+    </div>
+    <div class="right">
+      <transition name="fade">
+        <i class="icon" :class="{ 'icon-close-outline': menuVisible, 'icon-menu-outline': !menuVisible }" @click="menuVisible = !menuVisible"></i>
+      </transition>
+    </div>
   </div>
+</div>
+
+<transition name="fade">
+  <div class="menu-container" style="display: none;" v-show="menuVisible">
+    <div class="menu-list">
+      
+        
+          <a href="http://005wkr.coding-pages.com" class="menu purple-link">
+            首页
+          </a>
+        
+      
+        
+          <a href="http://005wkr.coding-pages.com" class="menu purple-link">
+            软件安装教程
+          </a>
+        
+      
+        
+          <a href="http://005wkr.coding-pages.com" class="menu purple-link">
+            关于
+          </a>
+        
+      
+    </div>
+  </div>
+</transition>
+
+
+      <div class="content-container">
+        <div class="post-detail">
+          
+          <h2 class="post-title">关于</h2>
+          <div class="post-info post-detail-info">
+            <span><i class="icon-calendar-outline"></i> 2020-08-11</span>
+            
+              <span>
+                <i class="icon-pricetags-outline"></i>
+                
+                  <a href="https://zbf2020.github.io/mYlZLg_rc/">
+                    MicroZhao
+                    
+                  </a>
+                
+              </span>
+            
+          </div>
+          <div class="post-content">
+            <blockquote>
+<p>欢迎来到我的小站呀，很高兴遇见你！🤝</p>
+</blockquote>
+<h2 id="关于本站">🏠 关于本站</h2>
+<p>本站是博主搭建的博客，旨在保存学习中遇到的各种各样的问题与解决方法，同时分享一些岩土工程规范！</p>
+<h2 id="博主是谁">👨‍💻 博主是谁</h2>
+<p>博主是从事于岩土工程的地质工作者，直白的说就是在工地搬砖。</p>
+<h2 id="联系我呀">📬 联系我呀</h2>
+<p>email : zbf2020@outlook.com</p>
+<h2 id="网站声明">📢网站声明</h2>
+<p>本博客的原创内容，均采用 知识共享署名-非商业性使用-禁止演绎 3.0 中国大陆许可协议 进行许可。</p>
+<p>如需转载请邮件与我联系。</p>
+
+          </div>
+        </div>
+
+        
+      </div>
+
+      
+
+      <div class="site-footer">
+  <div class="slogan">来自灵魂深处的发问！</div>
   <div class="social-container">
     
       
@@ -70,113 +126,26 @@
       
     
   </div>
+  @2020 Powered by MicroZhao | <a class="rss" href="https://zbf2020.github.io/atom.xml" target="_blank">RSS</a>
 </div>
 
-        <div class="post-detail">
-          <article class="post">
-            <h2 class="post-title">
-              关于
-            </h2>
-            <div class="post-info">
-              <span>
-                2020-08-11
-              </span>
-              <span>
-                1 min read
-              </span>
-              
-                <a href="https://zbf2020.github.io/mYlZLg_rc/" class="post-tag">
-                  # MicroZhao
-                </a>
-              
-            </div>
-            
-            <div class="post-content-wrapper">
-              <div class="post-content">
-                <blockquote>
-<p>欢迎来到我的小站呀，很高兴遇见你！🤝</p>
-</blockquote>
-<h2 id="关于本站">🏠 关于本站</h2>
-<p>本站是博主搭建的博客，旨在保存学习中遇到的各种各样的问题与解决方法，同时分享一些岩土工程规范！</p>
-<h2 id="博主是谁">👨‍💻 博主是谁</h2>
-<p>博主是从事于岩土工程的地质工作者，直白的说就是在工地搬砖。</p>
-<h2 id="联系我呀">📬 联系我呀</h2>
-<p>email : zbf2020@outlook.com</p>
-<h2 id="网站声明">📢网站声明</h2>
-<p>本博客的原创内容，均采用 知识共享署名-非商业性使用-禁止演绎 3.0 中国大陆许可协议 进行许可。</p>
-<p>如需转载请邮件与我联系。</p>
 
-              </div>
-              <div class="toc-container">
-                <ul class="markdownIt-TOC">
-<li>
-<ul>
-<li><a href="#%E5%85%B3%E4%BA%8E%E6%9C%AC%E7%AB%99">🏠 关于本站</a></li>
-<li><a href="#%E5%8D%9A%E4%B8%BB%E6%98%AF%E8%B0%81">👨‍💻 博主是谁</a></li>
-<li><a href="#%E8%81%94%E7%B3%BB%E6%88%91%E5%91%80">📬 联系我呀</a></li>
-<li><a href="#%E7%BD%91%E7%AB%99%E5%A3%B0%E6%98%8E">📢网站声明</a></li>
-</ul>
-</li>
-</ul>
-
-              </div>
-            </div>
-          </article>
-        </div>
-
-        
-
-        
-
-        <div class="site-footer">
-  @2020 Powered by MicroZhao
-  <a class="rss" href="https://zbf2020.github.io/atom.xml" target="_blank">
-    <i class="ri-rss-line"></i> RSS
-  </a>
-</div>
-
-      </div>
     </div>
+    <script type="application/javascript">
 
-    <script>
-      hljs.initHighlightingOnLoad()
+hljs.initHighlightingOnLoad()
 
-      let mainNavLinks = document.querySelectorAll(".markdownIt-TOC a");
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
 
-      // This should probably be throttled.
-      // Especially because it triggers during smooth scrolling.
-      // https://lodash.com/docs/4.17.10#throttle
-      // You could do like...
-      // window.addEventListener("scroll", () => {
-      //    _.throttle(doThatStuff, 100);
-      // });
-      // Only not doing it here to keep this Pen dependency-free.
+</script>
 
-      window.addEventListener("scroll", event => {
-        let fromTop = window.scrollY;
 
-        mainNavLinks.forEach((link, index) => {
-          let section = document.getElementById(decodeURI(link.hash).substring(1));
-          let nextSection = null
-          if (mainNavLinks[index + 1]) {
-            nextSection = document.getElementById(decodeURI(mainNavLinks[index + 1].hash).substring(1));
-          }
-          if (section.offsetTop <= fromTop) {
-            if (nextSection) {
-              if (nextSection.offsetTop > fromTop) {
-                link.classList.add("current");
-              } else {
-                link.classList.remove("current");    
-              }
-            } else {
-              link.classList.add("current");
-            }
-          } else {
-            link.classList.remove("current");
-          }
-        });
-      });
 
-    </script>
+
   </body>
 </html>
