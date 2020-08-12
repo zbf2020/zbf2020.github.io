@@ -2,11 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://zbf2020.github.io</id>
     <title>MicroZhao</title>
-    <updated>2020-08-12T06:36:54.143Z</updated>
+    <updated>2020-08-12T06:37:44.434Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://zbf2020.github.io"/>
     <link rel="self" href="https://zbf2020.github.io/atom.xml"/>
-    <subtitle>@2020-2020</subtitle>
+    <subtitle>@2020</subtitle>
     <logo>https://zbf2020.github.io/images/avatar.png</logo>
     <icon>https://zbf2020.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, MicroZhao</rights>
