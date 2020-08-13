@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://zbf2020.github.io</id>
     <title>MicroZhao</title>
-    <updated>2020-08-12T09:02:44.700Z</updated>
+    <updated>2020-08-13T01:10:40.356Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://zbf2020.github.io"/>
     <link rel="self" href="https://zbf2020.github.io/atom.xml"/>
@@ -16,18 +16,5 @@
         <link href="https://zbf2020.github.io/cad2020/">
         </link>
         <updated>2020-08-12T01:42:34.000Z</updated>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Hello ！]]></title>
-        <id>https://zbf2020.github.io/hello-gridea/</id>
-        <link href="https://zbf2020.github.io/hello-gridea/">
-        </link>
-        <updated>2020-08-11T16:00:00.000Z</updated>
-        <summary type="html"><![CDATA[<p>👏  欢迎访问MicroZhao的博客！<br>
-✍️ 本博客旨在记录博主学习过程中的一些想法、问题与解决方法，欢迎大家批评指正！</p>
-]]></summary>
-        <content type="html"><![CDATA[<p>👏  欢迎访问MicroZhao的博客！<br>
-✍️ 本博客旨在记录博主学习过程中的一些想法、问题与解决方法，欢迎大家批评指正！</p>
-]]></content>
     </entry>
 </feed>
